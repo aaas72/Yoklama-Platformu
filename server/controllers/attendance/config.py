@@ -1,0 +1,10 @@
+T_CONF = 0.55
+T_DIST = 0.50  # Search Radius (Loose)
+T_STRICT_FALLBACK = 0.32  # Safety Net for Unprofiled (Strict)
+TEMPORAL_FRAMES = 2
+DEBUG_MODE = True
+DISTANCE_FIRST = True
+IGNORE_CONF = True
+STRICT_MODE = True
+MARGIN = 0.04
+UNKNOWN_FRAMES = 6
