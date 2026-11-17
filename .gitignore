@@ -32,3 +32,9 @@ dist/
 build/
 client/dist/
 client/node_modules/
+
+# Face data (biometric, never commit)
+dataset/
+server/dataset/
+server/ml/dataset/
+*.pkl

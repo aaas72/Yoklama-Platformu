@@ -52,8 +52,7 @@ Yoklama-Platformu/
     ├── routes/ controllers/      # auth, school, class, teacher, student, attendance
     ├── controllers/attendance/   # scan, decision engine, face cache, learning, stats
     ├── utils/face_utils.py       # Detection, embeddings, similarity
-    ├── config/                   # Database and security settings
-    └── dataset/                  # Sample face dataset for testing
+    └── config/                   # Database and security settings
 ```
 
 ## Getting Started
@@ -76,6 +75,10 @@ cd client
 npm install
 npm run dev
 ```
+
+## Privacy
+
+No face images or embeddings are stored in this repository. Student faces are captured through the app at enrollment time and stay in your own deployment; for local testing, use your own photos or a public, licensed face dataset and keep it out of version control (`dataset/` is git-ignored).
 
 ## API Overview
 
